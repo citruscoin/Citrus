@@ -1,0 +1,3 @@
+debian/manpages/citrusd.1
+debian/manpages/citrus.conf.5
+debian/manpages/citrus-cli.1

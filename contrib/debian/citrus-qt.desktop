@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Citrus
+Comment=Citrus P2P Cryptocurrency
+Comment[fr]=Citrus, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Citrus, eşten eşe kriptografik sanal para birimi
+Exec=citrus-qt %u
+Terminal=false
+Type=Application
+Icon=citrus128
+MimeType=x-scheme-handler/citrus;
+Categories=Office;Finance;

@@ -1,0 +1,6 @@
+usr/local/bin/citrus-qt usr/bin
+share/pixmaps/citrus32.xpm usr/share/pixmaps
+share/pixmaps/citrus16.xpm usr/share/pixmaps
+share/pixmaps/citrus128.png usr/share/pixmaps
+debian/citrus-qt.desktop usr/share/applications
+debian/citrus-qt.protocol usr/share/kde4/services/

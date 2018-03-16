@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/citrus_bg.qm</file>
+        <file alias="de">locale/citrus_de.qm</file>
+        <file alias="en">locale/citrus_en.qm</file>
+        <file alias="es">locale/citrus_es.qm</file>
+        <file alias="fi">locale/citrus_fi.qm</file>
+        <file alias="fr">locale/citrus_fr.qm</file>
+        <file alias="it">locale/citrus_it.qm</file>
+        <file alias="ja">locale/citrus_ja.qm</file>
+        <file alias="pl">locale/citrus_pl.qm</file>
+        <file alias="pt">locale/citrus_pt.qm</file>
+        <file alias="ru">locale/citrus_ru.qm</file>
+        <file alias="sk">locale/citrus_sk.qm</file>
+        <file alias="sv">locale/citrus_sv.qm</file>
+        <file alias="vi">locale/citrus_vi.qm</file>
+        <file alias="zh_CN">locale/citrus_zh_CN.qm</file>
+        <file alias="zh_TW">locale/citrus_zh_TW.qm</file>
+    </qresource>
+</RCC>
