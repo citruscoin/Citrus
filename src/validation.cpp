@@ -1252,17 +1252,18 @@ CAmount GetBlockSubsidy(int nPrevBits, int nPrevHeight, const Consensus::Params&
 CAmount GetMasternodePayment(int nHeight, CAmount blockValue)
 {
     int halving = Params().GetConsensus().nSubsidyHalvingInterval;
-    CAmount rets = (blockValue/100)*55;
+    CAmount ret = (blockValue/100)*55;
 
-    CAmount ret = rets * COIN;
-    for (int i = halving; i <= nHeight; i += halving) {
-      if((blockValue / 100) * 80 > ret + (ret / 100) * 5) {
-        ret += (ret/100) * 5;
-      } else {
-        ret = (blockValue / 100) * 80;
+    if(nHeight > halving) {
+      for (int i = halving; i <= nHeight; i += halving) {
+        if((blockValue / 100) * 80 > ret + (ret / 100) * 5) {
+          ret += (ret/100) * 5;
+        } else {
+          ret = (blockValue / 100) * 80;
+        }
       }
     }
-
+    
     return ret;
 }
 
